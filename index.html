@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>goibibo</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js" type="text/javascript"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+	<script type="text/javascript" src="js/a.js"></script>
+</head>
+<body>
+	<nav class="navbar navbar-default">
+		<div class="container-fluid">
+			<div class="navbar navbar-header">
+				<a href="../index.html"><img src="images/goLogo.png"></a> 
+			</div>
+			<div>
+				<ul class="nav navbar-nav">
+					<li class="navicon"><a href="#"><span><i class="glyphicon glyphicon-plane"></i>Flights</span></a></li>
+					<li class="navicon"><a href="#"><i class="glyphicon glyphicon-home"></i>Hotels</a></li>
+					<li class="navicon"><a href="#"><i class="glyphicon glyphicon-th-large"></i>Budget Hotels</a></li>
+					<li class="navicon"><a href="#"><i class="glyphicon glyphicon-road"></i>Buses</a></li>
+					<li class="navicon"><a href="#"><i class="glyphicon glyphicon-shopping-cart"></i>Holidays</a></li>
+					<li class="navicon"><a href="#"><i class="glyphicon glyphicon-home"></i>Flights+Hotels</a></li>
+					<div class="dropdown">
+						<li class="dropbtn"><a href="#">more+</a></li>
+						<div class="dropdown-content">
+							<li class="more_link"><a href="#"><span><i class="glyphicon glyphicon-plane"></i>International Flights</span></a></li>
+							<li class="more_link"><a href="#"><span><i class="glyphicon glyphicon-shopping-cart"></i>Go Packages</span></a></li>
+							<li class="more_link"><a href="#"><span><i class="glyphicon glyphicon-warning-sign"></i>Weekend Gateways</span></a></li>
+							<li class="more_link"><a href="#"><span><i class="glyphicon glyphicon-film"></i>Mobile Apps</span></a></li>
+							<li class="more_link"><a href="#"><span><i class="glyphicon glyphicon-th"></i>City Travel Guides</span></a></li>
+							<li class="more_link"><a href="#"><span><i class="glyphicon glyphicon-stats"></i>Route Planner</span></a></li>
+							<li class="more_link"><a href="#"><span><i class="glyphicon glyphicon-gift"></i>Offer & Promotions</span></a></li>
+							<li class="more_link"><a href="#"><span><i class="glyphicon glyphicon-random"></i>Go5000 Offers</span></a></li>
+							<li class="more_link"><a href="#"><span><i class="glyphicon glyphicon-eye-close"></i>Review & Ratings</span></a></li>
+						</div>
+					</div>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li>
+						<a href="#">
+							<div class="half">
+								<div class="half1">24X7</div>
+								<div>goCare<br>support</div>
+							</div>	
+						</a> 
+					</li>
+					<li><a href="#"><i class="glyphicon glyphicon-print"></i></a></li>
+					<li>
+						<div class="sign">
+							<a href="#">sign in</a>
+							<span href="#">/</span>
+							<a href="#">sign up</a>
+						</div>
+					</li>
+					<li><a href="#"><i class="glyphicon glyphicon-user"></i></a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<div class="vertical-center">
+		<div class="container homecontainer1">
+			<h2>Book Domestic & International Flight</h2>
+			<form action="" class="button">
+				<input type="radio" name="trip" value="round" class="button1"> Round Trip
+				<input type="radio" name="trip" value="one" class="button1"> One Way
+				<input type="radio" name="trip" value="multi" class="button1"> Multi Way
+				<input type="checkbox" name="flight" value="flight" class="button1"> Flight+Hotel
+			</form>
+			<div class="row swap1">
+				<div class="row">
+					<div class=" swap-text col-md-5">
+						<input id="txt-pickup" type="text" name="">
+					</div>
+					<div class="swap col-md-1">
+						<a id="change" value="Swap" href="#"><i class="glyphicon glyphicon-resize-horizontal"></i></a>
+					</div>
+					<div class=" swap-text col-md-5">
+						<input id="txt-destination" type="text" name="">
+					</div>
+				</div>
+			</div>
+			<div class="deside">
+				<div class="date">
+					<div class="depart">
+						<p>Depart:</p>
+						<input type="text" name="">
+					</div>
+					<div class="return">
+						<p>Return:</p>
+						<input type="text" name="">
+					</div>
+				</div>
+				<div class="traveller">
+					<div class="travel1">
+						<p>Travellers:</p>
+						<form action="">
+							<div class="col-xs-7"> 
+								<span class="usericon"  >
+									<select class="form-control" name="aaa">   <!-- form-control bootstrap class -->               
+										<option value="1">1 Traveller(s)</option>             
+									</select>
+								</span>
+							</div> 	
+						</form>
+					</div>
+					<div class="travel2">
+						<p>Classes:</p>
+						<form action="">
+							<select name="">
+								<option value="economy" selected>Economy</option>
+								<option value="business">Business</option>
+								<option value="first_class">First Class</option>
+								<option value="premium_class">Premium Economy</option>
+							</select>
+						</form>
+					</div>
+				</div>
+			</div>
+			<div class="search1">
+				<input type="checkbox" name="" value="" class="checkbox1">
+				<span class="checkbox-alert">Alert me when Price Changes</span> 
+				<button type="submit" value="Search"><p>Search</p> <span class="goKarde">goKarde</span></button>
+			</div>
+		</div>
+	</div>
+	<div class="bank">
+		<a href="#"><img src="images/bank.png"></a>
+	</div>
+    
+</body>
+</html>
